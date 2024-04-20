@@ -1,0 +1,53 @@
+.divLoginSignup input[type=text], 
+.divLoginSignup input[type=password], 
+select {
+  width: 90%;
+  padding: 12px 18px; /* Slightly adjusted padding */
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #3498db; /* Changed border color */
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #555; /* Changed text color */
+}
+
+.divLoginSignup input[type=submit] {
+  width: 100%;
+  background-color: #2ecc71; /* Changed background color */
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+.divLoginSignup input[type=submit]:hover {
+  background-color: #27ae60; /* Changed hover background color */
+}
+
+.divFormContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.divLoginSignup {
+  border-radius: 8px;
+  background-color: #ecf0f1; /* Changed background color */
+  padding: 30px;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for depth effect */
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #555;
+  resize: none; /* Disabled textarea resize */
+}
